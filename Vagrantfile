@@ -6,7 +6,7 @@ Vagrant.require_version ">= 1.6.0"
 boxes = [
     {
         :name => "go-api",
-        :eth1 => "192.168.206.1",
+        :eth1 => "192.168.206.11",
         :mem => "1024",
         :cpu => "1"
     }

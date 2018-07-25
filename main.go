@@ -7,12 +7,13 @@ import (
 	
 	"haishenming/go-api/config"
 	"haishenming/go-api/router"
+	"haishenming/go-api/model"
 	
 	"github.com/lexkong/log"
 	"github.com/gin-gonic/gin"
 	"github.com/spf13/pflag"
 	"github.com/spf13/viper"
-
+	
 )
 
 var (
@@ -44,6 +45,10 @@ func main() {
 		// Middlewares.
 		middlewares...,
 	)
+	
+	// init db
+	model.DB.Init()
+	defer model.DB.Close()
 	
 	// Ping the server to make sure the router is working.
 	go func() {
