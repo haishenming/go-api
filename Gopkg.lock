@@ -44,6 +44,12 @@
   revision = "ef8a98b0bbce4a65b5aa4c368430a80ddc533168"
 
 [[projects]]
+  branch = "master"
+  name = "github.com/lexkong/log"
+  packages = [".","lager","lager/color"]
+  revision = "972f9cd951fc7e5c8797f1fb2b57b63b09ff4de9"
+
+[[projects]]
   name = "github.com/magiconair/properties"
   packages = ["."]
   revision = "c2353362d570a7bfa228149c62842019201cfb71"
@@ -136,6 +142,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "39a3b35ad6617c2522f0f1560cda15d678206ec59b3c5cf06af1ca5a200c3434"
+  inputs-digest = "f90e9b10106ff856226a43a3fb821945ad4effc4b53ec47f5b2dc59578b55108"
   solver-name = "gps-cdcl"
   solver-version = 1
