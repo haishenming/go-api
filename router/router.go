@@ -7,6 +7,7 @@ import (
 	"haishenming/go-api/router/middleware"
 	
 	"github.com/gin-gonic/gin"
+	"haishenming/go-api/handler/user"
 )
 
 // Load loads the middlewares, routes, handlers.
@@ -29,6 +30,11 @@ func Load(g *gin.Engine, mw ...gin.HandlerFunc) *gin.Engine {
 		svcd.GET("/disk", sd.DiskCheck)
 		svcd.GET("/cpu", sd.CPUCheck)
 		svcd.GET("/ram", sd.RAMCheck)
+	}
+	
+	u := g.Group("/v1/user")
+	{
+		u.POST("", user.Create)
 	}
 	
 	return g

@@ -1,0 +1,34 @@
+{"level":"INFO","timestamp":"2018-07-25 15:33:17.697","file":"go-api/main.go:56","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2018-07-25 15:33:17.698","file":"go-api/main.go:53","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2018-07-25 16:18:18.493","file":"config/config.go:72","msg":"Config file changed: /home/hsm/code/MiChong/go/src/haishenming/go-api/conf/config.yaml"}
+{"level":"INFO","timestamp":"2018-07-25 16:18:45.198","file":"config/config.go:72","msg":"Config file changed: /home/hsm/code/MiChong/go/src/haishenming/go-api/conf/config.yaml"}
+{"level":"INFO","timestamp":"2018-07-25 16:18:57.109","file":"config/config.go:72","msg":"Config file changed: /home/hsm/code/MiChong/go/src/haishenming/go-api/conf/config.yaml"}
+{"level":"INFO","timestamp":"2018-07-25 16:20:23.487","file":"config/config.go:72","msg":"Config file changed: /home/hsm/code/MiChong/go/src/haishenming/go-api/conf/config.yaml"}
+{"level":"ERROR","timestamp":"2018-07-25 16:23:25.759","file":"model/init.go:32","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"Error 1130: Host 'HSM-JC' is not allowed to connect to this MySQL server"}}
+{"level":"ERROR","timestamp":"2018-07-25 16:23:25.759","file":"model/init.go:32","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"Error 1130: Host 'HSM-JC' is not allowed to connect to this MySQL server"}}
+{"level":"INFO","timestamp":"2018-07-25 16:23:25.759","file":"go-api/main.go:61","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2018-07-25 16:23:25.760","file":"go-api/main.go:58","msg":"The router has been deployed successfully."}
+{"level":"ERROR","timestamp":"2018-07-25 16:29:17.216","file":"model/init.go:32","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"Error 1130: Host 'HSM-JC' is not allowed to connect to this MySQL server"}}
+{"level":"ERROR","timestamp":"2018-07-25 16:29:17.216","file":"model/init.go:32","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"Error 1130: Host 'HSM-JC' is not allowed to connect to this MySQL server"}}
+{"level":"INFO","timestamp":"2018-07-25 16:29:17.216","file":"go-api/main.go:61","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2018-07-25 16:29:17.217","file":"go-api/main.go:58","msg":"The router has been deployed successfully."}
+{"level":"ERROR","timestamp":"2018-07-25 16:32:18.501","file":"model/init.go:32","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"Error 1130: Host 'HSM-JC' is not allowed to connect to this MySQL server"}}
+{"level":"ERROR","timestamp":"2018-07-25 16:32:18.502","file":"model/init.go:32","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"Error 1130: Host 'HSM-JC' is not allowed to connect to this MySQL server"}}
+{"level":"INFO","timestamp":"2018-07-25 16:32:18.502","file":"go-api/main.go:61","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2018-07-25 16:32:18.502","file":"go-api/main.go:58","msg":"The router has been deployed successfully."}
+{"level":"ERROR","timestamp":"2018-07-25 16:32:27.095","file":"model/init.go:32","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"Error 1130: Host 'HSM-JC' is not allowed to connect to this MySQL server"}}
+{"level":"ERROR","timestamp":"2018-07-25 16:32:27.095","file":"model/init.go:32","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"Error 1130: Host 'HSM-JC' is not allowed to connect to this MySQL server"}}
+{"level":"INFO","timestamp":"2018-07-25 16:32:27.095","file":"go-api/main.go:61","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2018-07-25 16:32:27.095","file":"go-api/main.go:58","msg":"The router has been deployed successfully."}
+{"level":"ERROR","timestamp":"2018-07-25 16:36:22.031","file":"model/init.go:32","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"Error 1130: Host 'HSM-JC' is not allowed to connect to this MySQL server"}}
+{"level":"ERROR","timestamp":"2018-07-25 16:36:22.031","file":"model/init.go:32","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"Error 1130: Host 'HSM-JC' is not allowed to connect to this MySQL server"}}
+{"level":"INFO","timestamp":"2018-07-25 16:36:22.031","file":"go-api/main.go:61","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2018-07-25 16:36:22.033","file":"go-api/main.go:58","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2018-07-25 16:37:25.135","file":"config/config.go:72","msg":"Config file changed: /home/hsm/code/MiChong/go/src/haishenming/go-api/conf/config.yaml"}
+{"level":"INFO","timestamp":"2018-07-25 08:42:48.451","file":"go-api/main.go:61","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2018-07-25 08:42:48.462","file":"go-api/main.go:58","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2018-07-25 17:05:51.793","file":"go-api/main.go:61","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2018-07-25 17:05:51.794","file":"go-api/main.go:58","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2018-07-25 09:11:24.685","file":"go-api/main.go:61","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2018-07-25 09:11:24.689","file":"go-api/main.go:76","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2018-07-25 09:11:25.694","file":"go-api/main.go:58","msg":"The router has been deployed successfully."}
