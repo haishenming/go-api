@@ -47,3 +47,6 @@
 {"level":"DEBUG","timestamp":"2018-07-26 16:26:05.063","file":"user/create.go:39","msg":"username is: [admin], password is [admin]"}
 {"level":"INFO","timestamp":"2018-07-26 17:06:07.221","file":"go-api/main.go:61","msg":"Start to listening the incoming requests on http address: :8080"}
 {"level":"INFO","timestamp":"2018-07-26 17:06:07.221","file":"go-api/main.go:58","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2018-08-03 07:43:40.401","file":"go-api/main.go:60","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2018-08-03 07:43:40.402","file":"go-api/main.go:75","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2018-08-03 07:43:41.436","file":"go-api/main.go:57","msg":"The router has been deployed successfully."}
