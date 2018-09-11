@@ -3,9 +3,9 @@ package service
 import (
 	"fmt"
 	"sync"
-	
-	"haishenming/go-api/model"
-	"haishenming/go-api/util"
+
+	"apiserver/model"
+	"apiserver/util"
 )
 
 func ListUser(username string, offset, limit int) ([]*model.UserInfo, uint64, error) {
@@ -14,33 +14,33 @@ func ListUser(username string, offset, limit int) ([]*model.UserInfo, uint64, er
 	if err != nil {
 		return nil, count, err
 	}
-	
+
 	ids := []uint64{}
 	for _, user := range users {
 		ids = append(ids, user.Id)
 	}
-	
+
 	wg := sync.WaitGroup{}
 	userList := model.UserList{
 		Lock:  new(sync.Mutex),
 		IdMap: make(map[uint64]*model.UserInfo, len(users)),
 	}
-	
+
 	errChan := make(chan error, 1)
 	finished := make(chan bool, 1)
-	
+
 	// Improve query efficiency in parallel
 	for _, u := range users {
 		wg.Add(1)
 		go func(u *model.UserModel) {
 			defer wg.Done()
-			
+
 			shortId, err := util.GenShortId()
 			if err != nil {
 				errChan <- err
 				return
 			}
-			
+
 			userList.Lock.Lock()
 			defer userList.Lock.Unlock()
 			userList.IdMap[u.Id] = &model.UserInfo{
@@ -53,21 +53,21 @@ func ListUser(username string, offset, limit int) ([]*model.UserInfo, uint64, er
 			}
 		}(u)
 	}
-	
+
 	go func() {
 		wg.Wait()
 		close(finished)
 	}()
-	
+
 	select {
 	case <-finished:
 	case err := <-errChan:
 		return nil, count, err
 	}
-	
+
 	for _, id := range ids {
 		infos = append(infos, userList.IdMap[id])
 	}
-	
+
 	return infos, count, nil
 }

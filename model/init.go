@@ -2,7 +2,7 @@ package model
 
 import (
 	"fmt"
-	
+
 	"github.com/lexkong/log"
 	"github.com/spf13/viper"
 	// MySQL driver.
@@ -26,15 +26,15 @@ func openDB(username, password, addr, name string) *gorm.DB {
 		true,
 		//"Asia/Shanghai"),
 		"Local")
-	
+
 	db, err := gorm.Open("mysql", config)
 	if err != nil {
 		log.Errorf(err, "Database connection failed. Database name: %s", name)
 	}
-	
+
 	// set for db connection
 	setupDB(db)
-	
+
 	return db
 }
 
