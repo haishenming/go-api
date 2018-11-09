@@ -1,7 +1,7 @@
 package user
 
 import (
-	"apiserver/model"
+	"go-api/model"
 )
 
 type CreateRequest struct {

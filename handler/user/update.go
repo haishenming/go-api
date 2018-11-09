@@ -3,10 +3,10 @@ package user
 import (
 	"strconv"
 
-	. "apiserver/handler"
-	"apiserver/model"
-	"apiserver/pkg/errno"
-	"apiserver/util"
+	. "go-api/handler"
+	"go-api/model"
+	"go-api/pkg/errno"
+	"go-api/util"
 
 	"github.com/gin-gonic/gin"
 	"github.com/lexkong/log"
